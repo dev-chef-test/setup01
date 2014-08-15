@@ -8,7 +8,7 @@
 #
 
 # install pack
-%w{traceroute wget sysstat tcpdump ntpdate ntp iotop vim mlocate tree }.each do |setup| #
+%w{traceroute wget sysstat tcpdump ntpdate ntp iotop vim mlocate tree dstat colordiff mtr htop }.each do |setup| #
   package setup do
     action :install
   end
